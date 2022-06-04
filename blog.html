@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> College site design - project-1   </title>
+
+        <meta name="description" content="">
+        
+        <link rel="stylesheet" href="clg site.css">
+   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+       
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+    </head>
+    <body>
+      
+        <section class="sub-header">
+ 
+             <nav>
+      <a href="index.html"><img src= "imgs/logo.png"></a>
+
+     <div class= "nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>  
+          <li><a href="College website.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="courses.html">COURSES</a></li>
+          <li><a href="blog.html">  BLOG </a></li>
+          <li><a href="contact us page.html">  CONTACT </a></li>
+         </ul>
+     </div>
+     <i class="fa fa-bars" onclick="showMenu()" ></i>
+     </nav>
+ 
+ <h1>Our Certificate & Online Programs For 2021</h1>
+
+        </section> 
+
+  <!----------Blog page content------------->
+  <section class="blog-content">
+
+      <div class="row">
+        <div class="blog-left">
+            <img src="imgs/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2021</h2>
+   <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.cusamus ex cumque delectus ipsum! Libero ex alias similique facilis atque doloribus?</p>
+   <br>
+
+   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ut facere dolor ipsa modi pariatur reiciendis, soluta, praesentium velit magni omnis unde ratione temporibus quaerat illum consectetur! Soluta, atque maiores?</p>
+
+
+   <br>
+
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non asperiores amet debitis. Fuga repellat ipsum rerum voluptate voluptatem pariatur reiciendis consectetur ab doloremque cumque, consequuntur itaque fugiat dignissimos officiis! Ab?</p>
+
+       <div class="comment-box">
+
+   <h3>Leave a comment</h3>
+  
+   <form class="comment-form">
+     <input type="text" placeholder="Enter Name">
+      <input type="email" placeholder="Enter Email">
+ 
+   <textarea rows="5" placeholder="Your Comment">
+
+   </textarea>
+ 
+    <button type="submit" class="hero-btn" red-btn >POST COMMENT</button>
+
+    </form>
+
+
+   </form>
+
+       </div>
+
+
+
+
+
+
+
+
+
+          </div>
+        <div class="blog-right">
+
+ <h3> Post Categories </h3>
+      <div>
+        <span> Business Analytics</span>
+        <span>21</span>
+      </div>
+
+      <div>
+        <span>Data Science</span>
+        <span>28</span>
+      </div>
+
+      <div>
+        <span> Machine Learning </span>
+        <span>15</span>
+      </div>
+
+      <div>
+        <span> Computer Science </span>
+        <span>34</span>
+      </div>
+
+
+      </div>
+
+
+
+
+
+  </section>
+
+
+
+
+
+<!-----------FOOTER-------------->
+
+ <section class="footer">
+     <h4>About Us</h4>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. iste mollitia similique! <br> Deserunt amet tenetur impedit tempora quis iure dolorum magni nobis.</p>
+
+  <div class="icons">
+    
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter-square"></i>
+  
+  </div>
+
+   <p>Made with <i class="far fa-heart" onclick="thanq()">
+  </i>  by GJ with Js  </p>
+    </section>
+     </body>
+
+
+
+
+
+
+
+
+
+
+
+      <!-------Javascript for Toggle Menu ------->
+            <script> 
+ 
+    var  navLinks= document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+        function hideMenu(){
+        navLinks.style.right ="-200px";   
+    }
+    function thanq(){
+        document.write("Thank you for showing love");
+    }
+
+        
+ 
+ 
+ 
+ 
+                   // to make menu bar section{nav{a href}{div{ul}}}
+         
+           // @media query for device less than 700px / we use this to make our site mobile friendly 
+
+           // hover + trasition for color when poiter comes over the text 
+
+        </script>
+    </body>
+</html>
